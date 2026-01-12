@@ -1,4 +1,4 @@
-import 'package:oddo_test/models/self_ordering.dart';
+mailimport 'package:oddo_test/models/self_ordering.dart';
 import 'package:odoo_rpc/odoo_rpc.dart';
 
 class OdooService {
@@ -25,8 +25,8 @@ class OdooService {
     if (!_isLoggedIn) {
       await login(
         db: 'GO_Smart',
-        username: 'mostafa.thabet@gosmart.eg',
-        password: 'gosmart+001',
+        username: 'email',
+        password: 'pass',
       );
     }
 
@@ -44,8 +44,8 @@ class OdooService {
     if (!_isLoggedIn) {
       await login(
         db: 'GO_Smart',
-        username: 'mostafa.thabet@gosmart.eg',
-        password: 'gosmart+001',
+        username: 'email',
+        password: 'pass',
       );
     }
 
