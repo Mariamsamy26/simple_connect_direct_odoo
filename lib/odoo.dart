@@ -5,7 +5,7 @@ Future<void> main() async {
   final client = OdooClient('https://erp.gosmart.eg');
 
   try {
-    await client.authenticate('GO_Smart', 'mostafa.thabet@gosmart.eg', 'gosmart+001');
+    await client.authenticate('GO_Smart', 'email', 'pass');
 
     final result = await client.callKw({
       'model': 'self.ordering',
